@@ -5,7 +5,7 @@ if [ -f /etc/bashrc ]; then
     . /etc/bashrc
 fi
 
-alias neofetch="echo ''; neofetch --ascii_distro arch_small" 
+alias neofetch="echo ''; fastfetch" 
 alias ls="ls --color=auto" 
 alias la="ls -lha"
 alias notes="nvim ~/notes/draft.md" 
