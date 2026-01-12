@@ -1,0 +1,19 @@
+[window]
+padding = {x=10, y=10}
+decorations = "None"
+opacity = 0.8
+
+[font]
+size = 14.0
+normal = {family = "GeistMono Nerd Font", style = "Regular"}
+
+[colors]
+[colors.primary]
+background = "#000000"
+
+[keyboard]
+bindings = [
+  { key = "#", mods = "Control", action = "IncreaseFontSize" },
+  { key = "-", mods = "Control", action = "DecreaseFontSize" },
+  { key = "&", mods = "Control", action = "ResetFontSize" },
+]
