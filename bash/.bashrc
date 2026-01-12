@@ -20,5 +20,5 @@ alias weather="curl wttr.in"
 
 color_prompt=yes
 
-PS1='${debian_chroot:+($debian_chroot)}\[\033[01;37m\]\u\[\033[00;34m\]@\[\033[01;34m\]\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ '
+PS1='${debian_chroot:+($debian_chroot)}\[\033[01;37m\]\u\[\033[01;31m\]@\[\033[01;31m\]\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ '
 
